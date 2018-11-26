@@ -7,6 +7,8 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
+    "set:environment:dev": "cross-env NODE_ENV=development",
+    "set:environment:prod": "cross-env NODE_ENV=production",
     "webpack:server": "webpack --config webpack.server.config.js --progress --colors",
     "build:server": "ng run angular-universal:server",
     "build:browser:dev": "ng build --aot",
